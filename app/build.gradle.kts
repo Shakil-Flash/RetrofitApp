@@ -49,20 +49,22 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-        // Retrofit
-        implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    // Retrofit
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
 
-        // Converter (Gson example for JSON serialization/deserialization)
-        implementation("com.squareup.retrofit2:converter-gson:3.0.0")
+    // Converter (Gson example for JSON serialization/deserialization)
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
 
-        // OkHttp logging interceptor (optional, for debugging network requests)
-        implementation("com.squareup.okhttp3:logging-interceptor:5.3.2")
-        implementation("com.squareup.okhttp3:okhttp:5.3.2")
+    // OkHttp logging interceptor (optional, for debugging network requests)
+    implementation("com.squareup.okhttp3:logging-interceptor:5.3.2")
+    implementation("com.squareup.okhttp3:okhttp:5.3.2")
 
-        // Kotlin Coroutines (highly recommended for asynchronous operations with Retrofit in Kotlin)
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2") // Use the latest version
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2") // Use the latest version
+    // Kotlin Coroutines (highly recommended for asynchronous operations with Retrofit in Kotlin)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2") // Use the latest version
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2") // Use the latest version
 
-        implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation("de.hdodenhof:circleimageview:3.1.0")
+
+    implementation("com.github.bumptech.glide:glide:5.0.5")
 
 }
